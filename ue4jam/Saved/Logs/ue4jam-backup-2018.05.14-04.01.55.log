@@ -1,0 +1,854 @@
+﻿Log file open, 05/13/18 23:38:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ue4jam
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1774761571) SRandInit(-1774761571).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.436631
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.13-22.38.24:681][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-22.38.24:681][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.13-22.38.24:812][  0]LogInit: Computer: CHARLIE-SAN
+[2018.05.13-22.38.24:812][  0]LogInit: User: Charlie
+[2018.05.13-22.38.24:812][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.13-22.38.24:812][  0]LogInit: High frequency timer resolution =3.020483 MHz
+[2018.05.13-22.38.24:812][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.05.13-22.38.24:827][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.13-22.38.24:827][  0]LogMemory: Process Physical Memory: 277.58 MB used, 277.58 MB peak
+[2018.05.13-22.38.24:827][  0]LogMemory: Process Virtual Memory: 274.11 MB used, 274.11 MB peak
+[2018.05.13-22.38.24:827][  0]LogMemory: Physical Memory: 5369.89 MB used,  2777.48 MB free, 8147.37 MB total
+[2018.05.13-22.38.24:827][  0]LogMemory: Virtual Memory: 706.38 MB used,  2777.48 MB free, 134217728.00 MB total
+[2018.05.13-22.38.25:972][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.13-22.38.25:973][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.13-22.38.26:372][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.13-22.38.30:737][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.13-22.38.30:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.05.13-22.38.30:857][  0]LogD3D11RHI:       4043/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.13-22.38.30:862][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.13-22.38.30:862][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.13-22.38.30:862][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.13-22.38.30:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.13-22.38.30:875][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.13-22.38.30:875][  0]LogWindows: EnumDisplayDevices:
+[2018.05.13-22.38.30:875][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.05.13-22.38.30:875][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.05.13-22.38.30:875][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.13-22.38.30:876][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.13-22.38.30:876][  0]LogWindows:    4. 'LMIMIRR' (P:0 D:0)
+[2018.05.13-22.38.30:876][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.13-22.38.30:876][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.05.13-22.38.30:876][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.13-22.38.30:876][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.13-22.38.30:876][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.13-22.38.30:982][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.13-22.38.31:497][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2018.05.13-22.38.31:630][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Intermediate/Shaders/WorkingDirectory/15428/).
+[2018.05.13-22.38.31:630][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charlie.CHARLIE-SAN/AppData/Local/Temp/UnrealShaderWorkingDir/0A64229B4A1120F4D9A1BBAEF7DC34BD/'.
+[2018.05.13-22.38.31:650][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.13-22.38.35:732][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.13-22.38.35:829][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.13-22.38.35:925][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.13-22.38.36:021][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.13-22.38.36:182][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.13-22.38.36:283][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.13-22.38.36:480][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.13-22.38.36:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.13-22.38.36:666][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.13-22.38.36:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.13-22.38.36:890][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.13-22.38.36:984][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.13-22.38.37:078][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.13-22.38.37:173][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.13-22.38.37:266][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.13-22.38.37:454][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.13-22.38.37:454][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.13-22.38.37:535][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.13-22.38.37:758][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.13-22.38.37:805][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.13-22.38.37:900][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.13-22.38.37:993][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.13-22.38.38:086][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.13-22.38.38:219][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.13-22.38.38:219][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.13-22.38.39:846][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: Loaded boot cache 0.81s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.13-22.38.40:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.13-22.38.40:736][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.13-22.38.40:803][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.13-22.38.40:939][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.13-22.38.41:050][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.13-22.38.41:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-22.38.41:189][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-22.38.50:173][  0]LogAssetRegistry: FAssetRegistry took 0.0502 seconds to start up
+[2018.05.13-22.38.52:053][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-22.38.58:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.13-22.39.01:216][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.13-22.39.01:520][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.13-22.39.01:520][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.13-22.39.01:521][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.13-22.39.01:521][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.13-22.39.01:521][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.13-22.39.09:718][  0]LogNetVersion: ue4jam , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3671380056)
+[2018.05.13-22.39.12:744][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.217134 seconds
+[2018.05.13-22.39.12:812][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.05.13-22.39.12:812][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.05.13-22.39.12:812][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.13-22.39.13:009][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.13-22.39.55:289][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.13-22.39.55:392][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.13-22.39.58:805][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.13-22.40.00:210][  0]SourceControl: Source control is disabled
+[2018.05.13-22.40.00:210][  0]SourceControl: Source control is disabled
+[2018.05.13-22.40.00:362][  0]SourceControl: Source control is disabled
+[2018.05.13-22.40.00:518][  0]SourceControl: Source control is disabled
+[2018.05.13-22.40.02:902][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.13-22.40.03:558][  0]LogOcInput: OculusInput pre-init called
+[2018.05.13-22.40.04:632][  0]LogEngine: Initializing Engine...
+[2018.05.13-22.40.05:140][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.05.13-22.40.05:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.13-22.40.05:846][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.006 s
+[2018.05.13-22.40.06:836][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.13-22.40.07:167][  0]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-22.40.07:229][  0]LogInit: FAudioDevice initialized.
+[2018.05.13-22.40.07:417][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.13-22.40.07:430][  0]LogInit: Texture streaming: Enabled
+[2018.05.13-22.40.08:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.13-22.40.09:606][  0]LogInit: Transaction tracking system initialized
+[2018.05.13-22.40.12:534][  0]BlueprintLog: New page: Editor Load
+[2018.05.13-22.40.19:390][  0]LocalizationService: Localization service is disabled
+[2018.05.13-22.40.25:559][  0]LogConsoleResponse: Display: 
+[2018.05.13-22.40.29:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/' took 0.02s
+[2018.05.13-22.40.29:634][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.13-22.40.29:636][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.13-22.40.29:760][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.13-22.40.37:737][  0]SourceControl: Source control is disabled
+[2018.05.13-22.40.37:871][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.13-22.40.38:089][  0]LightingResults: New page: Lighting Build
+[2018.05.13-22.40.39:161][  0]MapCheck: New page: Map Check
+[2018.05.13-22.40.39:161][  0]LightingResults: New page: Lighting Build
+[2018.05.13-22.40.48:214][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.13-22.40.49:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.13-22.40.50:645][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.13-22.40.50:817][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 171.551ms to complete.
+[2018.05.13-22.40.50:894][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 13.067
+[2018.05.13-22.40.58:149][  0]LogCollectionManager: Loaded 0 collections in 0.003038 seconds
+[2018.05.13-22.40.58:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Collections/' took 0.01s
+[2018.05.13-22.40.58:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/Developers/Charlie/Collections/' took 0.01s
+[2018.05.13-22.40.58:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/Collections/' took 0.01s
+[2018.05.13-22.40.58:700][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.13-22.40.58:759][  0]LogContentBrowser: Native class hierarchy populated in 0.0339 seconds. Added 2386 classes and 500 folders.
+[2018.05.13-22.40.59:199][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.13-22.41.02:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.05.13-22.41.03:504][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.13-22.41.07:602][  0]LogSlate: Took 0.013228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.13-22.41.07:673][  0]LogSlate: Took 0.021236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.13-22.41.08:113][  0]LogSlate: Took 0.040796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.13-22.41.11:226][  0]LogRenderer: Reallocating scene render targets to support 1208x620 Format 10 NumSamples 1 (Frame:1).
+[2018.05.13-22.41.15:838][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.13-22.41.15:838][  0]LogLoad: (Engine Initialization) Total time: 182.18 seconds
+[2018.05.13-22.41.15:838][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.13-22.41.15:905][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.13-22.41.15:905][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.13-22.41.18:114][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.13-22.41.21:985][  1]LogSlate: Took 0.048121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.13-22.41.23:250][  4]LogAssetRegistry: Asset discovery search completed in 153.1178 seconds
+[2018.05.13-22.41.23:408][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.13-22.41.23:434][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.023967 seconds (updated 0 objects)
+[2018.05.13-22.42.23:806][710]LogSlate: Took 0.019135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.13-22.42.24:094][710]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Charlie.CHARLIE-SAN/Desktop/AlchemyGame/magic potion.png)
+[2018.05.13-22.42.24:578][710]LogTexture: Display: Building textures: magic_potion (BGRA8, 2048X102)
+[2018.05.13-22.42.28:473][ 75]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.13-22.42.45:317][788]LogSlate: Took 0.016005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.13-22.42.55:912][948]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.13-22.45.32:173][734]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (NewRoom_Sprite)
+[2018.05.13-22.45.32:858][798]LogEditorViewport: Clicking Background
+[2018.05.13-22.45.34:079][939]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.13-22.45.36:675][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.36:687][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.13-22.45.36:860][939]PIE: New page: PIE session: 2DSideScrollerExampleMap (14 May 2018 00:45:36)
+[2018.05.13-22.45.36:881][939]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.13-22.45.36:960][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078988s)
+[2018.05.13-22.45.36:961][939]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.13-22.45.36:962][939]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2018.05.13-22.45.36:975][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.096789s)
+[2018.05.13-22.45.37:034][939]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-22.45.37:042][939]LogInit: FAudioDevice initialized.
+[2018.05.13-22.45.37:155][939]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.13-22.45.37:507][939]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.13-23.45.37
+[2018.05.13-22.45.37:567][939]LogWorld: Bringing up level for play took: 0.059856
+[2018.05.13-22.45.37:866][939]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.05.13-22.45.38:030][939]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.944
+[2018.05.13-22.45.38:030][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.42:983][426]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	GameScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.GameScreen_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen.GameScreen_C:ExecuteUbergraph_GameScreen:0181
+[2018.05.13-22.45.42:994][426]PIE: Error: Infinite Loop detected in  GameScreen , asserted during  WhileLoop with the following  Call Stack
+[2018.05.13-22.45.42:995][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.43:092][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.43:285][427]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (NewRoom_Sprite)
+[2018.05.13-22.45.44:875][573]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.13-22.45.44:891][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.44:891][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.13-22.45.44:891][573]PIE: New page: PIE session: 2DSideScrollerExampleMap (14 May 2018 00:45:44)
+[2018.05.13-22.45.44:892][573]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.13-22.45.44:895][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003007s)
+[2018.05.13-22.45.44:896][573]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.13-22.45.44:896][573]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2018.05.13-22.45.44:897][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005389s)
+[2018.05.13-22.45.44:915][573]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-22.45.44:925][573]LogInit: FAudioDevice initialized.
+[2018.05.13-22.45.44:958][573]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.13-22.45.44:960][573]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.13-23.45.44
+[2018.05.13-22.45.44:960][573]LogWorld: Bringing up level for play took: 0.001656
+[2018.05.13-22.45.44:962][573]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.877
+[2018.05.13-22.45.44:963][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.46:455][704]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	GameScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.GameScreen_C_1
+	Function /Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen.GameScreen_C:ExecuteUbergraph_GameScreen:0181
+[2018.05.13-22.45.46:455][704]PIE: Error: Infinite Loop detected in  GameScreen , asserted during  WhileLoop with the following  Call Stack
+[2018.05.13-22.45.46:456][704]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.46:509][704]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.45.46:601][705]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2018.05.13-22.45.49:141][946]LogEditorViewport: Clicking Background
+[2018.05.13-22.45.55:584][676]LogSlate: Took 0.014444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.13-22.45.56:859][696]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2018.05.13-22.45.59:119][697]LogSlate: Took 0.014099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.13-22.48.48:327][704]BlueprintLog: New page: Compile GameScreen
+[2018.05.13-22.48.54:222][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.48.54:223][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.13-22.48.54:223][272]PIE: New page: PIE session: 2DSideScrollerExampleMap (14 May 2018 00:48:54)
+[2018.05.13-22.48.54:223][272]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.13-22.48.54:225][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002458s)
+[2018.05.13-22.48.54:226][272]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.13-22.48.54:227][272]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2018.05.13-22.48.54:227][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003967s)
+[2018.05.13-22.48.54:255][272]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-22.48.54:265][272]LogInit: FAudioDevice initialized.
+[2018.05.13-22.48.54:323][272]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.13-22.48.54:325][272]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.13-23.48.54
+[2018.05.13-22.48.54:325][272]LogWorld: Bringing up level for play took: 0.001581
+[2018.05.13-22.48.54:331][272]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.246
+[2018.05.13-22.48.54:332][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.48.54:361][272]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.05.13-22.48.57:093][531]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	GameScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.GameScreen_C_2
+	Function /Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen.GameScreen_C:ExecuteUbergraph_GameScreen:0181
+[2018.05.13-22.48.57:093][531]PIE: Error: Infinite Loop detected in  GameScreen , asserted during  WhileLoop with the following  Call Stack
+[2018.05.13-22.48.57:094][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.48.57:151][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.13-22.51.29:489][453]LogSavePackage: Save=155.13ms
+[2018.05.13-22.51.29:489][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/2DSideScrollerExampleMap_Auto172EE1B98412C808B34B0B2BEBF9D3A41.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.05.13-22.51.29:493][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.05.13-22.51.29:521][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.285
+[2018.05.13-22.51.29:521][453]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.285
+[2018.05.13-22.51.29:526][453]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen] ([1] browsable assets)...
+[2018.05.13-22.51.29:526][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen]
+[2018.05.13-22.51.29:790][453]LogSavePackage: Save=251.82ms
+[2018.05.13-22.51.29:790][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/GameScreen_Auto15749DE77452702006526F3B3C34AD2E3.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen_Auto1.uasset'
+[2018.05.13-22.51.29:799][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen_Auto1.uasset
+[2018.05.13-22.51.29:801][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion] ([1] browsable assets)...
+[2018.05.13-22.51.29:835][453]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion.magic_potion]
+[2018.05.13-22.51.29:835][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion]
+[2018.05.13-22.51.29:898][453]LogSavePackage: Save=60.38ms
+[2018.05.13-22.51.29:899][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Auto1829B87974B9B7312CC3861A32D3FE07F.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Auto1.uasset'
+[2018.05.13-22.51.29:901][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Auto1.uasset
+[2018.05.13-22.51.29:903][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0] ([1] browsable assets)...
+[2018.05.13-22.51.29:914][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0.magic_potion_Sprite_0]
+[2018.05.13-22.51.29:914][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0]
+[2018.05.13-22.51.29:927][453]LogSavePackage: Save=9.42ms
+[2018.05.13-22.51.29:927][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_0_Auto19DEC6C5142C74CF3C895E8810CD23AEE.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0_Auto1.uasset'
+[2018.05.13-22.51.29:931][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0_Auto1.uasset
+[2018.05.13-22.51.29:933][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1] ([1] browsable assets)...
+[2018.05.13-22.51.29:944][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1.magic_potion_Sprite_1]
+[2018.05.13-22.51.29:944][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1]
+[2018.05.13-22.51.29:959][453]LogSavePackage: Save=10.84ms
+[2018.05.13-22.51.29:959][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_1_Auto1721C22744DB4E97A4926C2870D4A3D67.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1_Auto1.uasset'
+[2018.05.13-22.51.29:962][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1_Auto1.uasset
+[2018.05.13-22.51.29:964][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2] ([1] browsable assets)...
+[2018.05.13-22.51.29:975][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2.magic_potion_Sprite_2]
+[2018.05.13-22.51.29:975][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2]
+[2018.05.13-22.51.29:988][453]LogSavePackage: Save=9.76ms
+[2018.05.13-22.51.29:988][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_2_Auto100F5D0CA4CBF160A16AA719C17CC3BA8.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2_Auto1.uasset'
+[2018.05.13-22.51.29:991][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2_Auto1.uasset
+[2018.05.13-22.51.29:993][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3] ([1] browsable assets)...
+[2018.05.13-22.51.30:004][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3.magic_potion_Sprite_3]
+[2018.05.13-22.51.30:004][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3]
+[2018.05.13-22.51.30:018][453]LogSavePackage: Save=10.50ms
+[2018.05.13-22.51.30:018][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_3_Auto1325D157A4DB37846C649B4BDDFAF0584.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3_Auto1.uasset'
+[2018.05.13-22.51.30:021][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3_Auto1.uasset
+[2018.05.13-22.51.30:023][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4] ([1] browsable assets)...
+[2018.05.13-22.51.30:033][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4.magic_potion_Sprite_4]
+[2018.05.13-22.51.30:034][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4]
+[2018.05.13-22.51.30:047][453]LogSavePackage: Save=9.93ms
+[2018.05.13-22.51.30:047][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_4_Auto1F7690AC644E4F116C93C16BD6888CF3E.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4_Auto1.uasset'
+[2018.05.13-22.51.30:050][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4_Auto1.uasset
+[2018.05.13-22.51.30:052][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5] ([1] browsable assets)...
+[2018.05.13-22.51.30:062][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5.magic_potion_Sprite_5]
+[2018.05.13-22.51.30:062][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5]
+[2018.05.13-22.51.30:075][453]LogSavePackage: Save=10.14ms
+[2018.05.13-22.51.30:076][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_5_Auto172DE88544CE92E6943BF999819F0D026.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5_Auto1.uasset'
+[2018.05.13-22.51.30:078][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5_Auto1.uasset
+[2018.05.13-22.51.30:080][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6] ([1] browsable assets)...
+[2018.05.13-22.51.30:091][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6.magic_potion_Sprite_6]
+[2018.05.13-22.51.30:091][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6]
+[2018.05.13-22.51.30:103][453]LogSavePackage: Save=9.04ms
+[2018.05.13-22.51.30:103][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_6_Auto10DC2E6484BB48FED06E7D6B72D8E2EEB.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6_Auto1.uasset'
+[2018.05.13-22.51.30:106][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6_Auto1.uasset
+[2018.05.13-22.51.30:108][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7] ([1] browsable assets)...
+[2018.05.13-22.51.30:118][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7.magic_potion_Sprite_7]
+[2018.05.13-22.51.30:118][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7]
+[2018.05.13-22.51.30:131][453]LogSavePackage: Save=9.85ms
+[2018.05.13-22.51.30:131][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_7_Auto179CFD65B47AC3951F5ED128E131F3966.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7_Auto1.uasset'
+[2018.05.13-22.51.30:134][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7_Auto1.uasset
+[2018.05.13-22.51.30:137][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8] ([1] browsable assets)...
+[2018.05.13-22.51.30:156][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8.magic_potion_Sprite_8]
+[2018.05.13-22.51.30:156][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8]
+[2018.05.13-22.51.30:172][453]LogSavePackage: Save=10.19ms
+[2018.05.13-22.51.30:172][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_8_Auto148BBF71645717AAC876DDFAAC35E2A81.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8_Auto1.uasset'
+[2018.05.13-22.51.30:175][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8_Auto1.uasset
+[2018.05.13-22.51.30:177][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9] ([1] browsable assets)...
+[2018.05.13-22.51.30:188][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9.magic_potion_Sprite_9]
+[2018.05.13-22.51.30:188][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9]
+[2018.05.13-22.51.30:202][453]LogSavePackage: Save=10.79ms
+[2018.05.13-22.51.30:203][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_9_Auto18164EE9843C3E1102CD7B294CB9E3B66.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9_Auto1.uasset'
+[2018.05.13-22.51.30:207][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9_Auto1.uasset
+[2018.05.13-22.51.30:208][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10] ([1] browsable assets)...
+[2018.05.13-22.51.30:221][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10.magic_potion_Sprite_10]
+[2018.05.13-22.51.30:221][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10]
+[2018.05.13-22.51.30:234][453]LogSavePackage: Save=9.78ms
+[2018.05.13-22.51.30:234][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_10_Auto1B2936B32467CE09095177095BADCF5A3.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10_Auto1.uasset'
+[2018.05.13-22.51.30:259][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10_Auto1.uasset
+[2018.05.13-22.51.30:260][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11] ([1] browsable assets)...
+[2018.05.13-22.51.30:271][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11.magic_potion_Sprite_11]
+[2018.05.13-22.51.30:271][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11]
+[2018.05.13-22.51.30:284][453]LogSavePackage: Save=10.04ms
+[2018.05.13-22.51.30:284][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_11_Auto1726865AF4697B94A36814EB15F762C42.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11_Auto1.uasset'
+[2018.05.13-22.51.30:289][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11_Auto1.uasset
+[2018.05.13-22.51.30:291][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12] ([1] browsable assets)...
+[2018.05.13-22.51.30:301][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12.magic_potion_Sprite_12]
+[2018.05.13-22.51.30:301][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12]
+[2018.05.13-22.51.30:318][453]LogSavePackage: Save=12.02ms
+[2018.05.13-22.51.30:318][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_12_Auto1F7CDE6574582142C35A3ED91FCC44E7E.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12_Auto1.uasset'
+[2018.05.13-22.51.30:322][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12_Auto1.uasset
+[2018.05.13-22.51.30:324][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13] ([1] browsable assets)...
+[2018.05.13-22.51.30:334][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13.magic_potion_Sprite_13]
+[2018.05.13-22.51.30:334][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13]
+[2018.05.13-22.51.30:347][453]LogSavePackage: Save=9.20ms
+[2018.05.13-22.51.30:348][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_13_Auto1F3DC95694CA1937BF288958F09339BD1.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13_Auto1.uasset'
+[2018.05.13-22.51.30:350][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13_Auto1.uasset
+[2018.05.13-22.51.30:352][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14] ([1] browsable assets)...
+[2018.05.13-22.51.30:365][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14.magic_potion_Sprite_14]
+[2018.05.13-22.51.30:365][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14]
+[2018.05.13-22.51.30:382][453]LogSavePackage: Save=9.62ms
+[2018.05.13-22.51.30:382][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_14_Auto1FC76DC5241BA089634FE88B75E48561F.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14_Auto1.uasset'
+[2018.05.13-22.51.30:463][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14_Auto1.uasset
+[2018.05.13-22.51.30:465][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15] ([1] browsable assets)...
+[2018.05.13-22.51.30:476][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15.magic_potion_Sprite_15]
+[2018.05.13-22.51.30:476][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15]
+[2018.05.13-22.51.30:494][453]LogSavePackage: Save=14.90ms
+[2018.05.13-22.51.30:495][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_15_Auto10BE0A27348CF9D409F6A0588C5232E93.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15_Auto1.uasset'
+[2018.05.13-22.51.30:499][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15_Auto1.uasset
+[2018.05.13-22.51.30:501][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16] ([1] browsable assets)...
+[2018.05.13-22.51.30:511][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16.magic_potion_Sprite_16]
+[2018.05.13-22.51.30:511][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16]
+[2018.05.13-22.51.30:526][453]LogSavePackage: Save=10.09ms
+[2018.05.13-22.51.30:526][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_16_Auto1543C05B44159B89587305E82265229A1.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16_Auto1.uasset'
+[2018.05.13-22.51.30:529][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16_Auto1.uasset
+[2018.05.13-22.51.30:532][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17] ([1] browsable assets)...
+[2018.05.13-22.51.30:543][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17.magic_potion_Sprite_17]
+[2018.05.13-22.51.30:543][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17]
+[2018.05.13-22.51.30:556][453]LogSavePackage: Save=9.98ms
+[2018.05.13-22.51.30:556][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_17_Auto1B8D74F284633279B8A2FBD9806AF24DD.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17_Auto1.uasset'
+[2018.05.13-22.51.30:559][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17_Auto1.uasset
+[2018.05.13-22.51.30:561][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18] ([1] browsable assets)...
+[2018.05.13-22.51.30:571][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18.magic_potion_Sprite_18]
+[2018.05.13-22.51.30:571][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18]
+[2018.05.13-22.51.30:595][453]LogSlate: Took 0.023088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.13-22.51.30:616][453]LogSavePackage: Save=9.64ms
+[2018.05.13-22.51.30:616][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_18_Auto134AF7BB14616448CC38C2F8DE9DB27FE.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18_Auto1.uasset'
+[2018.05.13-22.51.30:618][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18_Auto1.uasset
+[2018.05.13-22.51.30:621][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19] ([1] browsable assets)...
+[2018.05.13-22.51.30:632][453]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19.magic_potion_Sprite_19]
+[2018.05.13-22.51.30:632][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19]
+[2018.05.13-22.51.30:645][453]LogSavePackage: Save=9.89ms
+[2018.05.13-22.51.30:645][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_19_Auto173D94A7A44EF60AC7D9416899E17BC46.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19_Auto1.uasset'
+[2018.05.13-22.51.30:648][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19_Auto1.uasset
+[2018.05.13-22.51.30:650][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions] ([1] browsable assets)...
+[2018.05.13-22.51.30:660][453]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions.MagicPotions]
+[2018.05.13-22.51.30:660][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions]
+[2018.05.13-22.51.30:673][453]LogSavePackage: Save=9.30ms
+[2018.05.13-22.51.30:674][453]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/MagicPotions_Auto147377E8C403C8550D1CCA1A1856824D6.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions_Auto1.uasset'
+[2018.05.13-22.51.30:676][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions_Auto1.uasset
+[2018.05.13-22.51.30:676][453]LogFileHelpers: Auto-saving content packages took 1.152
+[2018.05.13-23.06.16:127][889]LogSavePackage: Save=18.85ms
+[2018.05.13-23.06.16:127][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potionC8B700404AD43BB5E60A0784283DE85B.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion.uasset'
+[2018.05.13-23.06.16:134][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion.uasset
+[2018.05.13-23.06.16:164][889]LogSavePackage: Save=9.57ms
+[2018.05.13-23.06.16:164][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_010DDC4094032B6F22CDD35A5604D1ABD.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0.uasset'
+[2018.05.13-23.06.16:169][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_0.uasset
+[2018.05.13-23.06.16:198][889]LogSavePackage: Save=9.19ms
+[2018.05.13-23.06.16:198][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_1346D36604D9BCEDD3687FBB101C9EF7E.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1.uasset'
+[2018.05.13-23.06.16:207][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_1.uasset
+[2018.05.13-23.06.16:233][889]LogSavePackage: Save=9.18ms
+[2018.05.13-23.06.16:234][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_106FF8CD544683968A6BB4A6B132AE7D91.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10.uasset'
+[2018.05.13-23.06.16:239][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_10.uasset
+[2018.05.13-23.06.16:264][889]LogSavePackage: Save=9.16ms
+[2018.05.13-23.06.16:264][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_1114A7002440B07073845600AD456CBD4A.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11.uasset'
+[2018.05.13-23.06.16:270][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_11.uasset
+[2018.05.13-23.06.16:296][889]LogSavePackage: Save=9.00ms
+[2018.05.13-23.06.16:296][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_12F3B024CE4DD44FF3D4E1F6A8F2D2D1BA.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12.uasset'
+[2018.05.13-23.06.16:301][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_12.uasset
+[2018.05.13-23.06.16:333][889]LogSavePackage: Save=11.36ms
+[2018.05.13-23.06.16:333][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_13DCB71F8849D022BAB83EB18497E87403.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13.uasset'
+[2018.05.13-23.06.16:339][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_13.uasset
+[2018.05.13-23.06.16:367][889]LogSavePackage: Save=9.12ms
+[2018.05.13-23.06.16:367][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_146D0E99094345209A5C10DE895FC47AD0.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14.uasset'
+[2018.05.13-23.06.16:373][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_14.uasset
+[2018.05.13-23.06.16:402][889]LogSavePackage: Save=9.14ms
+[2018.05.13-23.06.16:402][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_15FADC0C604044A8ACC41EC18E4F06EE2B.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15.uasset'
+[2018.05.13-23.06.16:422][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_15.uasset
+[2018.05.13-23.06.16:451][889]LogSavePackage: Save=9.23ms
+[2018.05.13-23.06.16:451][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_16474BEC6545D74E691B02B29D61963BB5.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16.uasset'
+[2018.05.13-23.06.16:456][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_16.uasset
+[2018.05.13-23.06.16:485][889]LogSavePackage: Save=9.19ms
+[2018.05.13-23.06.16:485][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_172EE83CA54C296A1EDC4F409F76FEB75C.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17.uasset'
+[2018.05.13-23.06.16:490][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_17.uasset
+[2018.05.13-23.06.16:519][889]LogSavePackage: Save=9.53ms
+[2018.05.13-23.06.16:519][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_18B525FBF64A4837AA951FC8A6A5523992.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18.uasset'
+[2018.05.13-23.06.16:525][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_18.uasset
+[2018.05.13-23.06.16:555][889]LogSavePackage: Save=9.66ms
+[2018.05.13-23.06.16:555][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_1907D4B60E4CA8760C516AEF81F5D3C0F2.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19.uasset'
+[2018.05.13-23.06.16:565][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_19.uasset
+[2018.05.13-23.06.16:615][889]LogSavePackage: Save=9.04ms
+[2018.05.13-23.06.16:615][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_2A9A849E648F3B0578B743E8A1192776F.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2.uasset'
+[2018.05.13-23.06.16:620][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_2.uasset
+[2018.05.13-23.06.16:647][889]LogSavePackage: Save=9.29ms
+[2018.05.13-23.06.16:647][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_36C82FD5E4546216180E061B83D44463A.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3.uasset'
+[2018.05.13-23.06.16:652][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_3.uasset
+[2018.05.13-23.06.16:677][889]LogSavePackage: Save=9.13ms
+[2018.05.13-23.06.16:677][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_48298E4A64FF7052331BE2BA2886B1FC9.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4.uasset'
+[2018.05.13-23.06.16:682][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_4.uasset
+[2018.05.13-23.06.16:709][889]LogSavePackage: Save=8.88ms
+[2018.05.13-23.06.16:709][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_51998820B49841DE70C00E7A758B02BEC.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5.uasset'
+[2018.05.13-23.06.16:721][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_5.uasset
+[2018.05.13-23.06.16:747][889]LogSavePackage: Save=9.14ms
+[2018.05.13-23.06.16:748][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_6DBC37AC34C6D4C01D7E1BCB068241302.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6.uasset'
+[2018.05.13-23.06.16:754][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_6.uasset
+[2018.05.13-23.06.16:780][889]LogSavePackage: Save=9.16ms
+[2018.05.13-23.06.16:780][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_7138313A547F40D9F12F709B71305F6A9.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7.uasset'
+[2018.05.13-23.06.16:785][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_7.uasset
+[2018.05.13-23.06.16:811][889]LogSavePackage: Save=9.08ms
+[2018.05.13-23.06.16:811][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_870A849134A4903E3901682854777BD78.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8.uasset'
+[2018.05.13-23.06.16:816][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_8.uasset
+[2018.05.13-23.06.16:843][889]LogSavePackage: Save=9.31ms
+[2018.05.13-23.06.16:843][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/magic_potion_Sprite_902A985554FC30F8ED685F69C4D5B145C.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9.uasset'
+[2018.05.13-23.06.16:848][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/magic_potion_Sprite_9.uasset
+[2018.05.13-23.06.16:883][889]LogSavePackage: Save=15.13ms
+[2018.05.13-23.06.16:883][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/MagicPotions76FD6773458DEB74739D6AB6BF8ABFDA.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions.uasset'
+[2018.05.13-23.06.16:888][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Magic_Potion/MagicPotions.uasset
+[2018.05.13-23.06.17:144][889]LogSavePackage: Save=238.61ms
+[2018.05.13-23.06.17:144][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/GameScreenF67A086C4377C30FA2A664B3A0906FEC.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen.uasset'
+[2018.05.13-23.06.17:151][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Blueprints/Assets/Widgets/GameScreen.uasset
+[2018.05.13-23.06.17:365][889]LogSavePackage: Save=46.17ms
+[2018.05.13-23.06.17:365][889]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/2DSideScrollerExampleMap1DE50FD54D0896FE693414A9870AB488.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.05.13-23.06.17:371][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.05.13-23.06.17:421][889]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.267
+[2018.05.13-23.06.17:548][889]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-23.06.18:099][890]Cmd: QUIT_EDITOR
+[2018.05.13-23.06.19:509][890]LogExit: Preparing to exit.
+[2018.05.13-23.06.20:402][890]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/' was aborted.
+[2018.05.13-23.06.20:579][890]LogExit: Editor shut down
+[2018.05.13-23.06.20:583][890]LogExit: Transaction tracking system shut down
+[2018.05.13-23.06.20:880][890]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.13-23.06.20:880][890]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/' was aborted.
+[2018.05.13-23.06.20:880][890]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.13-23.06.20:880][890]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.13-23.06.20:880][890]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.13-23.06.22:743][890]LogExit: Object subsystem successfully closed.
+[2018.05.13-23.06.23:156][890]LogD3D11RHI: Shutdown
+[2018.05.13-23.06.23:165][890]LogD3D11RHI: CleanupD3DDevice
+[2018.05.13-23.06.23:339][890]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.13-23.06.24:369][890]LogModuleManager: Shutting down and abandoning module SequencerWidgets (540)
+[2018.05.13-23.06.24:369][890]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2018.05.13-23.06.24:369][890]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2018.05.13-23.06.24:384][890]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.05.13-23.06.24:384][890]LogModuleManager: Shutting down and abandoning module TextureEditor (532)
+[2018.05.13-23.06.24:384][890]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.05.13-23.06.24:384][890]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.05.13-23.06.24:392][890]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.05.13-23.06.24:399][890]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.05.13-23.06.24:412][890]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.05.13-23.06.24:412][890]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.05.13-23.06.24:412][890]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.05.13-23.06.24:418][890]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/Collections/' was aborted.
+[2018.05.13-23.06.24:418][890]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Content/Developers/Charlie/Collections/' was aborted.
+[2018.05.13-23.06.24:418][890]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/UE4JAM/ue4jam/Saved/Collections/' was aborted.
+[2018.05.13-23.06.24:418][890]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.05.13-23.06.24:438][890]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.05.13-23.06.24:438][890]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.05.13-23.06.24:446][890]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.05.13-23.06.24:455][890]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.05.13-23.06.24:455][890]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.05.13-23.06.24:455][890]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.05.13-23.06.24:478][890]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.05.13-23.06.24:487][890]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.05.13-23.06.24:504][890]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.05.13-23.06.24:536][890]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.05.13-23.06.24:536][890]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.05.13-23.06.24:536][890]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.05.13-23.06.24:536][890]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.05.13-23.06.24:537][890]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.05.13-23.06.24:561][890]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.05.13-23.06.24:562][890]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.05.13-23.06.24:562][890]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.05.13-23.06.24:562][890]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.05.13-23.06.24:562][890]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.05.13-23.06.24:592][890]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.05.13-23.06.24:607][890]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.05.13-23.06.24:619][890]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.05.13-23.06.24:638][890]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.05.13-23.06.24:646][890]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.05.13-23.06.24:646][890]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.05.13-23.06.24:646][890]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.05.13-23.06.24:788][890]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.05.13-23.06.24:788][890]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.05.13-23.06.24:788][890]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.05.13-23.06.24:788][890]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.05.13-23.06.25:122][890]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.05.13-23.06.25:163][890]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.05.13-23.06.25:163][890]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.05.13-23.06.25:178][890]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.05.13-23.06.25:179][890]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.05.13-23.06.25:192][890]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.05.13-23.06.25:197][890]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.05.13-23.06.25:197][890]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.05.13-23.06.25:198][890]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.05.13-23.06.25:216][890]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.05.13-23.06.25:226][890]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.05.13-23.06.25:235][890]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.05.13-23.06.25:244][890]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.05.13-23.06.25:259][890]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.05.13-23.06.25:334][890]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.05.13-23.06.25:356][890]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.05.13-23.06.25:375][890]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.05.13-23.06.25:385][890]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.05.13-23.06.25:386][890]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.05.13-23.06.25:392][890]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.05.13-23.06.25:393][890]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.05.13-23.06.25:407][890]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.05.13-23.06.25:407][890]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.05.13-23.06.25:416][890]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.05.13-23.06.25:435][890]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.05.13-23.06.25:435][890]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.05.13-23.06.25:435][890]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.05.13-23.06.25:446][890]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.05.13-23.06.25:488][890]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.05.13-23.06.25:488][890]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.05.13-23.06.25:498][890]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.05.13-23.06.25:498][890]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.05.13-23.06.25:498][890]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.05.13-23.06.25:498][890]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.05.13-23.06.25:498][890]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.05.13-23.06.25:529][890]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.05.13-23.06.25:529][890]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.05.13-23.06.25:530][890]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.05.13-23.06.25:542][890]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.05.13-23.06.25:557][890]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.05.13-23.06.25:574][890]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.05.13-23.06.25:677][890]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.05.13-23.06.25:677][890]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.05.13-23.06.25:686][890]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.05.13-23.06.25:686][890]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.05.13-23.06.25:686][890]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.05.13-23.06.25:686][890]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.05.13-23.06.25:686][890]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.05.13-23.06.25:711][890]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.05.13-23.06.25:742][890]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.05.13-23.06.25:742][890]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.05.13-23.06.25:750][890]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.05.13-23.06.25:750][890]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.05.13-23.06.25:766][890]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.05.13-23.06.25:782][890]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.05.13-23.06.25:804][890]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.05.13-23.06.25:829][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.05.13-23.06.25:829][890]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.05.13-23.06.25:829][890]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.05.13-23.06.25:829][890]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.05.13-23.06.25:841][890]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.05.13-23.06.25:854][890]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.05.13-23.06.25:869][890]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.05.13-23.06.25:882][890]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.05.13-23.06.25:882][890]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.05.13-23.06.25:895][890]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.05.13-23.06.25:909][890]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.05.13-23.06.26:010][890]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.05.13-23.06.26:120][890]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.05.13-23.06.26:149][890]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.05.13-23.06.26:150][890]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.05.13-23.06.26:150][890]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.05.13-23.06.26:168][890]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.05.13-23.06.26:168][890]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.05.13-23.06.26:170][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.05.13-23.06.26:170][890]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.05.13-23.06.26:170][890]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.05.13-23.06.26:170][890]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.05.13-23.06.26:173][890]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.05.13-23.06.26:173][890]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.05.13-23.06.26:173][890]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.05.13-23.06.26:199][890]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.05.13-23.06.26:199][890]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.05.13-23.06.26:199][890]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.05.13-23.06.26:199][890]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.05.13-23.06.26:215][890]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.05.13-23.06.26:227][890]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.05.13-23.06.26:227][890]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.05.13-23.06.26:260][890]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.05.13-23.06.26:260][890]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.05.13-23.06.26:268][890]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.05.13-23.06.26:291][890]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.05.13-23.06.26:291][890]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.05.13-23.06.26:295][890]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.05.13-23.06.26:295][890]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.05.13-23.06.26:295][890]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.05.13-23.06.26:295][890]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.05.13-23.06.26:295][890]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.05.13-23.06.26:296][890]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.05.13-23.06.26:296][890]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.05.13-23.06.26:296][890]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.05.13-23.06.26:296][890]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.05.13-23.06.26:321][890]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.05.13-23.06.26:333][890]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.05.13-23.06.26:333][890]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.05.13-23.06.26:343][890]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.05.13-23.06.26:343][890]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.05.13-23.06.26:360][890]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.05.13-23.06.26:366][890]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.05.13-23.06.26:372][890]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.05.13-23.06.26:385][890]LogDerivedDataCache: Shutdown
+[2018.05.13-23.06.26:385][890]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.05.13-23.06.26:386][890]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.05.13-23.06.26:402][890]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.05.13-23.06.26:415][890]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.05.13-23.06.26:420][890]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.05.13-23.06.26:420][890]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.05.13-23.06.26:437][890]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.05.13-23.06.26:438][890]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.05.13-23.06.26:439][890]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.05.13-23.06.26:445][890]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.05.13-23.06.26:445][890]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.13-23.06.26:445][890]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.13-23.06.26:445][890]LogOnline: Display: Unloading online subsystem: NULL
+[2018.05.13-23.06.26:458][890]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.13-23.06.26:481][890]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.13-23.06.26:481][890]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.13-23.06.26:488][890]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD32CDB54-46E0-8BE2-EFCD-6080A46038DD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=2d96614f43405f09b0b0be82ce8bbb24%7C49732d51d5944a2db6608e23e96bf5fb%7C2c4c1f75-4c89-448a-89df-a419b7b542ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.13-23.06.26:499][890]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.13-23.06.26:514][890]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.13-23.06.26:524][890]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.13-23.06.26:524][890]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.13-23.06.26:547][890]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.13-23.06.26:547][890]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.13-23.06.26:547][890]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.13-23.06.26:547][890]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.13-23.06.26:568][890]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.13-23.06.26:576][890]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.13-23.06.26:577][890]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.13-23.06.26:588][890]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.13-23.06.26:606][890]LogExit: Exiting.
+[2018.05.13-23.06.26:624][890]Log file closed, 05/14/18 00:06:26
